@@ -1,0 +1,6 @@
+#!/bin/sh
+rm -f lex.yy.c
+rm -f y.tab.c
+yacc -d limbaj.y
+lex limbaj.l
+gcc lex.yy.c  y.tab.c -o ex
