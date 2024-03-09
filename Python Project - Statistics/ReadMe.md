@@ -1,0 +1,1 @@
+A python project which goal is to make a comparison between some statistics.
